@@ -1,0 +1,39 @@
+body{
+    background-color: goldenrod;
+}
+.title-info{
+    margin: auto;
+    text-align: center;
+}
+.burger-pic{
+    margin: auto;
+    padding: 20px;
+    background-image: url(../img/burgerpic.png);
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+}
+h1{
+    color: red;
+}
+.new-burgers{
+    margin: auto;
+    text-align: center;
+}
+.burger-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.burger-input{
+    width: 40%;
+    height: 200px; 
+    font-size: 20px;
+    padding: 5px;
+}
+.submit{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+}
